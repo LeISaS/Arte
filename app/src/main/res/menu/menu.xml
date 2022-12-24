@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="사진변화"
+        android:id="@+id/Change"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:title="밑그림 변환"
+                android:id="@+id/UnderDraw"
+                />
+            <item
+                android:id="@+id/illust"
+                android:title="일러스트화" />
+        </menu>
+    </item>
+
+    <item
+        android:title="굵기설정"
+        android:id="@+id/thickness"
+        app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:title="지우개"
+        android:id="@+id/Eraser"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/btnEraser"
+                android:title="지우개"/>
+            <item
+                android:id="@+id/btnAllEraser"
+                android:title="전체 지우기"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="색상변경"
+        android:id="@+id/btnColorPicker"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+
+
+
+</menu>

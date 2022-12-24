@@ -1,0 +1,1 @@
+Arte is an automated illustration editing tool using openCV.

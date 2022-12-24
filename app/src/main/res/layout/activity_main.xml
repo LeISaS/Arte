@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/llMenu"
+        android:background="#ffffffff"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/btnBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClick"
+            android:textColor="#000000"
+            android:text="Black"
+            android:visibility="gone"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnColorPicker"
+            android:visibility="gone"
+            android:text="ColorPicker"
+            android:onClick="btnClick"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UnderDraw"
+            android:onClick="onClick"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:textColor="#000000">
+
+    </LinearLayout>
+
+</LinearLayout>
